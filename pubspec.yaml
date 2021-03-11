@@ -2,7 +2,7 @@ name: my_first_package
 description: My first package
 version: 0.0.1
 author: Lucas Moreira Pires
-homepage: 
+homepage: https://github.com/moreiralucas/my_first_package.git
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
