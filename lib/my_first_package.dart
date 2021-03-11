@@ -1,8 +1,9 @@
 library my_first_package;
 
-/// A Calculator.
 export 'package:flutter_modular/flutter_modular.dart';
 
+/// A Calculator.
 export 'src/calculator.dart';
-export 'src/my_app.dart' show MyCustomApp;
-export 'src/app_module.dart' show CustomAppModule;
+
+/// A CustomApp
+export 'src/customer_page.dart' show CustomerPage;
