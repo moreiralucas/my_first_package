@@ -12,6 +12,12 @@ class FirstPage extends StatefulWidget {
 
 class _FirstPageState extends ModularState<FirstPage, FirstController> {
   @override
+  void initState() {
+    print('init state first page');
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -37,5 +43,11 @@ class _FirstPageState extends ModularState<FirstPage, FirstController> {
         ],
       ),
     );
+  }
+
+  @override
+  void dispose() {
+    print('First page dispose');
+    super.dispose();
   }
 }
