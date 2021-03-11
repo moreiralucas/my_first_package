@@ -17,7 +17,7 @@ class _HomePageState extends ModularState<HomePage, HomeController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('My Home page'),
+        title: Text('Home Page of Package'),
         centerTitle: true,
       ),
       body: Center(
